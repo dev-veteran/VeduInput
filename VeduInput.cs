@@ -129,7 +129,7 @@ namespace VeduInput
             {
                 keybd_event(targetKey, 0x45, (uint)KeyboardEventFlags.KEYEVENTF_KEYDOWN, 0);
                 Task.Delay(delayBetweenClick).Wait();
-                keybd_event(targetKey, 0x45, (uint)(KeyboardEventFlags.KEYEVENTF_KEYUP), 0);
+                keybd_event(targetKey, 0x45, (uint)KeyboardEventFlags.KEYEVENTF_KEYUP, 0);
             }
 
             /// <summary>
