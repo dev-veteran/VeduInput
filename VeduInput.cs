@@ -18,7 +18,7 @@ namespace VeduInput
         [DllImport("user32.dll")]
         static extern void keybd_event(byte bVk, byte bScan, uint dwFlags, int dwExtraInfo);
 
-        public class Global
+        public class Globals
         {
             /// <summary>
             /// Helps to check keystrokes globally.
